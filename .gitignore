@@ -6,3 +6,4 @@ tmp/*
 .bundle
 output.diff
 .rvmrc
+.sass-cache
