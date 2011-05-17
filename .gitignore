@@ -7,3 +7,4 @@ tmp/*
 output.diff
 .rvmrc
 .sass-cache
+Gemfile.lock
