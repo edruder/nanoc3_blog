@@ -14,5 +14,5 @@
         %li &middot;
         - item[:tags].sort.each do |tag|
           %li
-            %a(href="/tags/#{tag.gsub(' ', '-').downcase}/" class='tag')= tag
+            %a(href="/tags/#{tag.gsub(' ', '-').downcase}/" class='tag')
               = tag
