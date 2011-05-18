@@ -2,13 +2,6 @@
 title: nanoc3 blog starter kit
 ---
 
-#sticky
-  - item = item_by_identifier('/sticky/')
-  - if item[:title]
-    .title= item[:title]
-  .body
-    != partial(item)
-
 - oldest_item = nil
 - current_index = 0
 
